@@ -4,13 +4,13 @@ function Pagination({ currentPage, setCurrentPage }) {
   const FIRST_PAGE = 1;
   const LAST_PAGE = 50;
   const PAGE_SIZE = 10;
-  // const [currentPage, setCurrentPage] = useState(1);
   const [buttons, setButtons] = useState(
     Array(PAGE_SIZE)
       .fill(1)
       .map((item, index) => item + index)
   );
   const handleButtonClick = (item) => {
+    // console.log(item)
     setCurrentPage(item);
     const firstPage = buttons[0];
     const lastPage = buttons[buttons.length - 1];
