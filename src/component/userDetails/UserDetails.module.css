@@ -1,0 +1,37 @@
+.userDetailsContainer span {
+  color: black;
+}
+.userDetailsContainer .title {
+  padding: 0 40px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.userDetails {
+  border: 1px solid rgba(210, 218, 226, 1);
+  width: 40%;
+  margin: 0 20px;
+}
+.userDetails h2 {
+  font-weight: 500;
+  margin: 20px;
+}
+.userDetails h2 span {
+  margin: 0 20px;
+  color: rgba(255, 94, 87, 1);
+}
+.userDetails p {
+  width: 70%;
+  text-align: left;
+  margin: 10px auto;
+  font-weight: 500;
+  color: black;
+}
+.userDetails p span {
+  color: rgba(255, 94, 87, 1);
+  margin: 0 10px;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+.userListContainer {
+  width: 90%;
+  left: 5%;
+  height: 200px;
+  position: absolute;
+  background-color: rgba(255, 94, 87, 1);
+  top: 100%;
+  /* display: flex; */
+  /* border-top: 1px solid white; */
+  overflow: scroll;
+}
+.userName {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.noUserFound {
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
+.spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+}
+.spinner img {
+  width: 100%;
+}

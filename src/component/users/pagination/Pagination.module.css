@@ -1,0 +1,44 @@
+.buttonContainer {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons {
+  border: 2px solid rgba(255, 94, 87, 1);
+  background-color: white;
+  color: rgba(255, 94, 87, 1);
+  padding: 0.3rem 0;
+  width: 50px;
+  outline: none;
+  transition: 0.5s all ease;
+}
+.buttons:hover {
+  cursor: pointer;
+  background-color: rgba(255, 94, 87, 1);
+  color: white;
+}
+.currentPageButton {
+  color: white;
+  background-color: rgba(255, 94, 87, 1);
+  border: none;
+  outline: none;
+  padding: 0.3rem 0;
+  width: 50px;
+}
+.inactiveButton {
+  border: none;
+  background-color: white;
+  color: rgba(255, 94, 87, 0.8);
+  padding: 0.3rem 0;
+  width: 50px;
+  outline: none;
+  transition: 0.5s all ease;
+  pointer-events: none;
+}
+p {
+  text-align: center;
+  color: rgba(194, 54, 22, 1);
+}
